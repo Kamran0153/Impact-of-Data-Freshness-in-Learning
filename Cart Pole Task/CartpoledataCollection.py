@@ -1,8 +1,18 @@
+import gym
 import numpy as np
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
 import matplotlib.pyplot as plt
+
+# Configuration parameters for the whole setup
+seed = 42
+gamma = 0.99  # Discount factor for past rewards
+env = gym.make("CartPole-v0")  # Create the environment
+env.tau=0.001
+env.length=50
+env.x_threshold=3
+env.seed(seed)
 
 model = tf.keras.models.load_model('DQNCartpoleExp.h5')
 
