@@ -67,8 +67,7 @@ for n in range(i):
   score1[n]=mean_squared_error(y_train, y_pred)
   score2[n]=mean_squared_error(y_test, y_val)
 
-print(score1)
-print(score2)
+
 np.save('trainingerrorCSIu1.npy', score1)
 np.save('inferenceerrorCSIu1.npy', score2)
 
