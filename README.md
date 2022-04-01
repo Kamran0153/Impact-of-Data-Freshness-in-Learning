@@ -30,4 +30,6 @@ python Cart_Pole_Task/PoleAnglePrediction.py --u=1
 python Mountain_Car_Task/CarStatePrediction.py --Delay=10
 ```
 
-To get figures for different feature size "u" and "Delay", you need to change the value. The value of "u" needs to be integer and greater than 1. The value of Delay is used only in Mountain Car State Prediction and "Delay" can be only "0, 5, 10" with the given dataset and the code. To generate figure for other values of "Delay". you need to make the dataset using "CarStateDataCollection.py" and insert the path of the dataset inside "CarStatePrediction.py".
+By executing the above commands, you will get arrays of "Training Error" and "Inference Error" in '.npy' files.
+
+To get "Training Error" and "Inference Error" for different feature size "u" and "Delay", you need to change the value. The value of "u" needs to be integer and greater than 1. The value of Delay is used only in Mountain Car State Prediction and "Delay" can be only "0, 5, 10" with the given dataset and the code. To generate figure for other values of "Delay". you need to make the dataset using "CarStateDataCollection.py" and insert the path of the dataset inside "CarStatePrediction.py".
