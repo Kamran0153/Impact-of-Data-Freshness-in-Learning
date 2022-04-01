@@ -1,7 +1,7 @@
 # Impact of Data Freshness in Learning
 
 
-To reproduce the figures of the paper titled "How Does Data Freshness Affect Real-time Supervised Learning", you need to use following set of commands:
+To reproduce the figures of the paper titled "How Does Data Freshness Affect Real-time Supervised Learning?", you need to use following set of commands:
 
 Clone the Repo:
 ```sh
