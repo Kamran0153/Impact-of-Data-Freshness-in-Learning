@@ -23,7 +23,7 @@ Saved_Score=["TrainingLoss1.npy", "TrainingLoss5.npy", "TrainingLoss10.npy"]
 Saved_TestScore=["TestingLoss1.npy", "TestingLoss5.npy", "TestingLoss10.npy"]
 j=0
 #number of past observations
-u=[10]
+u=[1, 5, 10]
 j=0
 for L in u:
 
