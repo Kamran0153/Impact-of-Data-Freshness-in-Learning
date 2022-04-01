@@ -1,3 +1,5 @@
+#The code is adapted from https://keras.io/examples/timeseries/timeseries_weather_forecasting/
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -140,8 +142,8 @@ train_split = int(split_fraction * int(df.shape[0]))
 step = 6
 learning_rate = 0.001
 batch_size = 256
-epochs = 1
-Exppoints=1
+epochs = 10
+Exppoints=25
 Age=np.arange(Exppoints)*2+1
 training_error=np.zeros(len(Age))
 inference_error=np.zeros(len(Age))
