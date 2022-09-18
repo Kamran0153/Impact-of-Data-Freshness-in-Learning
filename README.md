@@ -41,7 +41,7 @@ a leader-follower robotic system.
   <img src="/RoboticExperimentModel.png" width="400"></p>
 
 As illustrated in a [Youtube
-video]([actual URL to navigate](https://www.youtube.com/watch?v=_z4FHuu3-ag), the leader robot sends its state (joint angles) Xt to the
+video](https://www.youtube.com/watch?v=_z4FHuu3-ag), the leader robot sends its state (joint angles) Xt to the
 follower robot through a channel. One packet for updating the
 leader robot’s state is sent periodically to the follower robot
 every 20 time-slots. The transmission time of each updating
