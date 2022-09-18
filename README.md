@@ -40,14 +40,7 @@ a leader-follower robotic system.
 <p float="left">
   <img src="/RoboticExperimentModel.png" width="400"></p>
 
-As illustrated in a [Youtube
-video](https://www.youtube.com/watch?v=_z4FHuu3-ag), the leader robot sends its state (joint angles) Xt to the
-follower robot through a channel. One packet for updating the
-leader robot’s state is sent periodically to the follower robot
-every 20 time-slots. The transmission time of each updating
-packet is 20 time-slots. The follower robot moves towards
-the leader’s most recent state and locally controls its robotic
-fingers to grab an object. We constructed a robot simulation
+As illustrated in a [Youtube video](https://www.youtube.com/watch?v=_z4FHuu3-ag), the leader robot sends its state (joint angles) $X_t# to the follower robot through a channel. One packet for updating the leader robot’s state is sent periodically to the follower robot every 20 time-slots. The transmission time of each updating packet is 20 time-slots. The follower robot moves towards the leader’s most recent state and locally controls its robotic fingers to grab an object. 
 
 (a) CSI Prediction Task:
 
