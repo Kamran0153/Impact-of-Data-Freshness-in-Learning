@@ -2,7 +2,7 @@
 
 We analyze the impact of data freshness on real-time supervised learning, where a neural network is trained to infer a time-varying target (e.g., the position of the vehicle in front) based on features (e.g., video frames) observed at a sensing node (e.g., camera or lidar). 
 
-#Motivation
+# Motivation
 In recent years, the proliferation of networked control and cyber-physical systems such as autonomous vehicle, UAV navigation, remote surgery, industrial control system has significantly boosted the need for real-time prediction. For example, an autonomous vehicle infers the trajectories of
 nearby vehicles and the intention of pedestrians based on lidars and cameras installed on the vehicle. In remote surgery, the
 movement of a surgical robot is predicted in real-time. These prediction problems can be solved by real-time supervised
