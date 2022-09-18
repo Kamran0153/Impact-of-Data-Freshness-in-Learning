@@ -37,7 +37,8 @@ Then, for different experiments, execute different python files with valid input
 (a)
 The first figure illustrates the performance of robot state prediction in
 a leader-follower robotic system. 
-
+<p float="left">
+  <img src="/RoboticExperimentModel.jpg" width="400"></p>
 
 As illustrated in a Youtube
 video, the leader robot sends its state (joint angles) Xt to the
