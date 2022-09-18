@@ -18,12 +18,13 @@ One might expect that the performance of real-time supervised learning degrades 
 
 # Experimental Results
 <p float="left">
-  <img src="/VideoInferenceError.jpg" width="200" />
-  <img src="/RobotInferenceError.jpg" width="200" /> 
+  <img src="/RobotInferenceError.jpg" width="200" />
+  <img src="/VideoInferenceError.jpg" width="200" /> 
   <img src="/TemperatureInferenceError.jpg" width="200" />
   <img src="/WirelessCSIInferenceError.jpg" width="200" />
 </p>
 
+# Implementation
 
 Clone the Repo:
 ```sh
@@ -32,6 +33,21 @@ cd Impact-of-Data-Freshness-in-Learning
 ```
 
 Then, for different experiments, execute different python files with valid input arguments:
+
+(a)
+The first figure illustrates the performance of robot state prediction in
+a leader-follower robotic system. 
+
+[![IMAGE ALT TEXT HERE](https://www.youtube.com/watch?v=_z4FHuu3-ag)](https://www.youtube.com/watch?v=_z4FHuu3-ag)
+
+As illustrated in a Youtube
+video, the leader robot sends its state (joint angles) Xt to the
+follower robot through a channel. One packet for updating the
+leader robot’s state is sent periodically to the follower robot
+every 20 time-slots. The transmission time of each updating
+packet is 20 time-slots. The follower robot moves towards
+the leader’s most recent state and locally controls its robotic
+fingers to grab an object. We constructed a robot simulation
 
 (a) CSI Prediction Task:
 
