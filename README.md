@@ -34,14 +34,14 @@ cd Impact-of-Data-Freshness-in-Learning
 
 Then, for different experiments, execute different python files with valid input arguments:
 
-(a)
+(a) Robot state prediction in a leader-follower robotic system:
 The first figure illustrates the performance of robot state prediction in
 a leader-follower robotic system. 
 <p float="left">
   <img src="/RoboticExperimentModel.png" width="400"></p>
 
-As illustrated in a Youtube
-video, the leader robot sends its state (joint angles) Xt to the
+As illustrated in a [Youtube
+video]([actual URL to navigate](https://www.youtube.com/watch?v=_z4FHuu3-ag), the leader robot sends its state (joint angles) Xt to the
 follower robot through a channel. One packet for updating the
 leader robot’s state is sent periodically to the follower robot
 every 20 time-slots. The transmission time of each updating
