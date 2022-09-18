@@ -1,7 +1,20 @@
 # Impact of Data Freshness in Learning
 
+We analyze the impact of data freshness on real-time supervised learning, where a neural network is trained to infer a time-varying target (e.g., the position of the vehicle in front) based on features (e.g., video frames) observed at a sensing node (e.g., camera or lidar). 
 
-To reproduce the figures of the paper titled "How Does Data Freshness Affect Real-time Supervised Learning?", you need to use following set of commands:
+#Motivation
+In recent years, the proliferation of networked control and cyber-physical systems such as autonomous vehicle, UAV navigation, remote surgery, industrial control system has significantly boosted the need for real-time prediction. For example, an autonomous vehicle infers the trajectories of
+nearby vehicles and the intention of pedestrians based on lidars and cameras installed on the vehicle. In remote surgery, the
+movement of a surgical robot is predicted in real-time. These prediction problems can be solved by real-time supervised
+learning, where a neural network is trained to predict a time varying target based on feature observations that are collected
+from a sensing node. Due to data processing time, transmission errors, and queueing delay, the features delivered to the neural
+predictor may not be fresh. The performance of networked intelligent systems depends heavily on the accuracy of realtime
+prediction. Hence, it is important to understand how data freshness affects the performance of real-time supervised
+learning.
+
+To evaluate data freshness, a metric Age of information (AoI) was introduced in [1]. Let $U_t$ be the generation time of the freshest feature received by the neural predictor at time $t$. Then, the AoI of the features, as a function of time $t$, is defined as $\Delta(t) = t-U_t$, which is the time difference between the current time $t$ and the generation time $U_t$ of the freshest received feature.
+
+One might expect that the performance of real-time supervised learning degrades monotonically as the feature becomes stale. By conducting several experiments, we show that this is not true. Experimental results show that training error and inference error can be non-monotonic functions of AoI.
 
 Clone the Repo:
 ```sh
