@@ -18,10 +18,10 @@ One might expect that the performance of real-time supervised learning degrades 
 
 # Experimental Results
 <p float="left">
-  <img src="/VideoInferenceError.jpg" width="100" />
-  <img src="/RobotInferenceError.jpg" width="100" /> 
-  <img src="/TemperatureInferenceError.jpg" width="100" />
-  <img src="/WirelessCSIInferenceError.jpg" width="100" />
+  <img src="/VideoInferenceError.jpg" width="200" />
+  <img src="/RobotInferenceError.jpg" width="200" /> 
+  <img src="/TemperatureInferenceError.jpg" width="200" />
+  <img src="/WirelessCSIInferenceError.jpg" width="200" />
 </p>
 
 
