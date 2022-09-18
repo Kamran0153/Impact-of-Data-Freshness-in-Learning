@@ -17,8 +17,10 @@ To evaluate data freshness, a metric Age of information (AoI) was introduced in 
 One might expect that the performance of real-time supervised learning degrades monotonically as the feature becomes stale. By conducting several experiments, we show that this is not true. Experimental results show that training error and inference error can be non-monotonic functions of AoI.
 
 # Experimental Results
+![alt-text-1](VideoInferenceError.jpg "title-1") ![alt-text-2](RobotInferenceError.jpg "title-2")
 
-  !<figure><img width="300" id="_x0000_i1025" src="./VideoInferenceError.jpg" alt="test" title=" "> </figure> ! <figure> <img width="300" id="_x0000_i1025" src="./RobotInferenceError.jpg" alt="test" title=" "> </figure>! 
+  <figure><img width="300" id="_x0000_i1025" src="./VideoInferenceError.jpg" alt="test" title=" ">  
+  <img width="300" id="_x0000_i1025" src="./RobotInferenceError.jpg" alt="test" title=" "> 
              <img width="300" id="_x0000_i1025" src="./TemperatureInferenceError.jpg" alt="test" title=" ">   
              <img width="300" id="_x0000_i1025" src="./WirelessCSIInferenceError.jpg" alt="test" title=" ">   
              <img width="300" id="_x0000_i1025" src="./SolarPowerInferenceError.jpg" alt="test" title=" ">   </figure> 
