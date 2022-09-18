@@ -21,13 +21,8 @@ One might expect that the performance of real-time supervised learning degrades 
   <img src="/VideoInferenceError.jpg" width="100" />
   <img src="/RobotInferenceError.jpg" width="100" /> 
   <img src="/TemperatureInferenceError.jpg" width="100" />
+  <img src="/WirelessCSIInferenceError.jpg" width="100" />
 </p>
-
-  <figure><img width="300" id="_x0000_i1025" src="./VideoInferenceError.jpg" alt="test" title=" ">  
-  <img width="300" id="_x0000_i1025" src="./RobotInferenceError.jpg" alt="test" title=" "> 
-             <img width="300" id="_x0000_i1025" src="./TemperatureInferenceError.jpg" alt="test" title=" ">   
-             <img width="300" id="_x0000_i1025" src="./WirelessCSIInferenceError.jpg" alt="test" title=" ">   
-             <img width="300" id="_x0000_i1025" src="./SolarPowerInferenceError.jpg" alt="test" title=" ">   </figure> 
 
 
 Clone the Repo:
