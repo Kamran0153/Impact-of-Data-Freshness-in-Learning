@@ -34,7 +34,7 @@ cd Impact-of-Data-Freshness-in-Learning
 
 Then, for different experiments, execute different python files with valid input arguments:
 
-(a) Robot state prediction in a leader-follower robotic system:
+(a) <b>Robot state prediction in a leader-follower robotic system:</b>
 The first figure illustrates the performance of robot state prediction in
 a leader-follower robotic system. 
 <p float="left">
