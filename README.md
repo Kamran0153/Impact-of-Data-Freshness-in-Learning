@@ -18,7 +18,7 @@ One might expect that the performance of real-time supervised learning degrades 
 
 # Experimental Results
 
-![Alt text](/relative/path/to/RobotInferenceError.jpg?raw=true "Optional Title")
+![Alt text](/RobotInferenceError.jpg?raw=true "Optional Title")
 
 
 Clone the Repo:
