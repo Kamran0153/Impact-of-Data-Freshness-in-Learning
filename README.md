@@ -52,6 +52,12 @@ python Robotic_State_Prediction/RoboticStatePrediction.py --u=1
   
 The next figure illustrates the experimental results of supervised learning based video prediction, which are regenerated from [[2]](https://arxiv.org/abs/1804.01523). In this experiment, the video frame $V_t$ at time $t$ is predicted based on a feature $X_{t-\delta} = (V_{t-\delta}, V_{t-\delta-1})$ that is composed of two consecutive video frames, where $\Delta(t) = \delta$ is the AoI. A pre-trained neural network model called “SAVP” [[2]](https://arxiv.org/abs/1804.01523) is used to evaluate on 256 samples of “BAIR” dataset [[3]](https://arxiv.org/abs/1710.05268), which contains video frames of a randomly moving robotic arm. The pre-trained neural network model can be downloaded from the Github repository of [[2]](https://arxiv.org/abs/1804.01523).
 
+(b) Temperature Prediction Task:
+```sh
+python Temperature_Prediction_Task/TemperaturePrediction.py --u=1
+```
+In the third figure, we plot the performance of temperature prediction. In this experiment, the temperature $Y_t$ at time $t$ is predicted based on a feature $X_{t-\delta} = \{s_{t-\delta}, \ldots, s_{t-\delta-u+1}\}  where $s_t$ is a 7-dimensional vector consisting of the temperature, pressure, saturation vapor pressure, vapor pressure deficit, specific humidity, airtight, and wind speed at time t. Similar to [[4]](https://keras.io/examples/timeseries/timeseries_weather_forecasting/), we have used an LSTM neural network and Jena climate dataset recorded by Max Planck Institute for Biogeochemistry. In this experiment, time unit of the sequence is 1 hour. 
+
 (a) CSI Prediction Task:
 
 ```sh
