@@ -1,6 +1,6 @@
 # Impact of Data Freshness in Learning
 
-<b>How Does Data Freshness Affect Real-time Supervised Learning?</b> 
+[<b>How Does Data Freshness Affect Real-time Supervised Learning?</b>](http://webhome.auburn.edu/~yzs0078/TechnicalReportMobihoc22.pdf) 
 
 Md Kamran Chowdhury Shisher and Yin Sun, submitted to IEEE/ACM Transactions on Networking, September 2022. (Part of this paper is accepted in ACM MobiHoc, 2022.)
 
