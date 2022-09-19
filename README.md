@@ -1,6 +1,7 @@
 # Impact of Data Freshness in Learning
 
-<b>How Does Data Freshness Affect Real-time Supervised Learning?</b> \\
+<b>How Does Data Freshness Affect Real-time Supervised Learning?</b> 
+
 Md Kamran Chowdhury Shisher and Yin Sun, submitted to IEEE/ACM Transactions on Networking, September 2022. (Part of this paper is accepted in ACM MobiHoc, 2022.)
 
 We analyze the impact of data freshness on real-time supervised learning, where a neural network is trained to infer a time-varying target (e.g., the position of the vehicle in front) based on features (e.g., video frames) observed at a sensing node (e.g., camera or lidar). 
