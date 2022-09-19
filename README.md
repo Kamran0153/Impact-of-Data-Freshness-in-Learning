@@ -12,7 +12,7 @@ predictor may not be fresh. The performance of networked intelligent systems dep
 prediction. Hence, it is important to understand how data freshness affects the performance of real-time supervised
 learning.
 
-To evaluate data freshness, a metric Age of information (AoI) was introduced in [1]. Let $U_t$ be the generation time of the freshest feature received by the neural predictor at time $t$. Then, the AoI of the features, as a function of time $t$, is defined as $\Delta(t) = t-U_t$, which is the time difference between the current time $t$ and the generation time $U_t$ of the freshest received feature.
+To evaluate data freshness, a metric Age of information (AoI) was introduced in [Kaul, et al.](https://www.youtube.com/watch?v=_z4FHuu3-ag). Let $U_t$ be the generation time of the freshest feature received by the neural predictor at time $t$. Then, the AoI of the features, as a function of time $t$, is defined as $\Delta(t) = t-U_t$, which is the time difference between the current time $t$ and the generation time $U_t$ of the freshest received feature.
 
 One might expect that the performance of real-time supervised learning degrades monotonically as the feature becomes stale. By conducting several experiments, we show that this is not true. Experimental results show that training error and inference error can be non-monotonic functions of AoI.
 
