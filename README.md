@@ -49,6 +49,9 @@ operation. The first 80% of the dataset is used for the training and the other 2
 python Robotic_State_Prediction/RoboticStatePrediction.py --u=1
 ```
 
+(b) <b>Video Prediction:</b> The next figure illustrates the experimental results of supervised learning based video prediction, which are regenerated from
+[[2]](https://arxiv.org/abs/1804.01523). In this experiment, the video frame $V_t$ at time $t$ is predicted based on a feature $X_{t-\delta} = (V_{t-\delta}, V_{t-delta-1})# that is composed of two consecutive video frames, where $\Delta(t) = \delta$ is the AoI. A pre-trained neural network model called “SAVP” [[2]](https://arxiv.org/abs/1804.01523) is used to evaluate on 256 samples of “BAIR” dataset [[3]](https://arxiv.org/abs/1710.05268), which contains video frames of a randomly moving robotic arm. The pre-trained neural network model can be downloaded from the Github repository of [[9]](https://arxiv.org/abs/1804.01523).
+
 (a) CSI Prediction Task:
 
 ```sh
